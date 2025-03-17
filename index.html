@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>table index two</title>
+    <title>Table Index Two</title>
     <style>
         .table {
             width: 100%;
@@ -10,275 +10,189 @@
             border-collapse: collapse;
         }
 
-        /*first table css*/
+        /* first table css */
         .first-table {
             width: 100%;
             height: 500px;
-
         }
 
-        /*first row css*/
+        /* first row css */
         .first-row {
             height: 70px;
         }
 
-        /*first row th css*/
-        .first-row-th-one {
+        /* first row th css */
+        .first-row-th-one, .first-row-th-two, .first-row-th-three, .first-row-th-four {
             border-style: solid;
             border-color: black;
             border-width: 3px;
             width: 200px;
-            background-color: rgb(17, 68, 17);
+            text-align: center;
+        }
+
+        .first-row-th-one {
+            background-color: rgb(14, 13, 13);
         }
 
         .first-row-th-two {
-            border-style: solid;
-            border-color: black;
-            border-width: 3px;
-            width: 200px;
-            background-color: rgb(106, 67, 67);
+            background-color: rgb(18, 17, 17);
         }
 
         .first-row-th-three {
-            border-style: solid;
-            border-color: black;
-            border-width: 3px;
-            width: 200px;
-            background-color: rgb(23, 46, 47);
+            background-color: rgb(18, 17, 17);
         }
 
         .first-row-th-four {
-            border-style: solid;
-            border-color: black;
-            border-width: 3px;
-            width: 200px;
-            background-color: rgb(71, 64, 64);
+            background-color: rgb(12, 12, 12);
         }
 
-        /*second row css*/
+        /* second row css */
         .second-row {
             height: 500px;
         }
 
-        /*second row td css*/
+        /* second row td css */
         .second-row-td-one {
-            border-style: solid;
-            border-color: black;
-            border-width: 3px;
-            background-color: rgb(82, 174, 177);
+            width: 50%;
+            height: 300px;
+            background-image: url("./assets/images/code-image2.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
         }
 
-        /*second table css*/
+        /* second table css */
         .second-table-css {
             height: 100%;
             width: 100%;
             border-color: black;
             border-collapse: collapse;
         }
-        .second-table-td{
+
+        .second-table-td {
             border-style: solid;
             border-color: black;
             border-width: 3px;
         }
 
-        /*third row css*/
+        /* third row css */
         .third-row {
             height: 500px;
         }
 
-        /*third row td css*/
+        /* third row td css */
         .third-row-td-one {
             border-style: solid;
             border-color: black;
             border-width: 3px;
-            background-color: rgb(217, 182, 182);
+            background-color: lightsteelblue;
         }
 
-        /*fourth row css*/
+        /* fourth row css */
         .fourth-row {
             height: 500px;
         }
 
-        /*fourth row td css*/
+        /* fourth row td css */
         .fourth-row-td-one {
             border-style: solid;
             border-color: black;
             border-width: 3px;
-            background-color: cadetblue;
+            background-color: rgb(190, 136, 114);
         }
 
-        /*fifth row css*/
+        /* fifth row css */
         .fifth-row {
             height: 500px;
         }
 
-        /*fifth row td css*/
+        /* fifth row td css */
         .fifth-row-td-one {
-            border-style: solid;
-            border-color: black;
-            border-width: 3px;
-            background-color: rgb(53, 54, 54);
+            width: 50%;
+            height: 300px;
+            background-image: url("https://thumbs.dreamstime.com/b/incredibly-beautiful-sunset-sun-lake-sunrise-landscape-panorama-nature-sky-amazing-colorful-clouds-fantasy-design-115177001.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+
+        /* sixth row css */
+        .sixth-row {
+            height: 500px;
+        }
+        h1{
+            color: black;
+        }
+        h3{
+            color: black;
         }
     </style>
 </head>
 
 <body>
     <table class="table">
-        <!--first row-->
+        <!-- first row -->
         <tr class="first-row">
-            <th class="first-row-th-one"><a href="#home">
-                    <H1>Home</H1>
-                </a>
-
-            </th>
-            <th class="first-row-th-two"><a href="#about">
-                    <H1>About</H1>
-                </a>
-
-            </th>
-            <th class="first-row-th-three"><a href="#project">
-                    <h1>Project</h1>
-                </a>
-
-            </th>
-            <th class="first-row-th-four"><a href="#contact">
-                    <h1>Contact</h1>
-                </a>
-
-            </th>
+            <th class="first-row-th-one"><a href="#home"><h1>Home</h1></a></th>
+            <th class="first-row-th-two"><a href="#about"><h1>About</h1></a></th>
+            <th class="first-row-th-three"><a href="#project"><h1>Project</h1></a></th>
+            <th class="first-row-th-four"><a href="#contact"><h1>Contact</h1></a></th>
         </tr>
-        <!--second row-->
+
+        <!-- second row -->
         <tr class="second-row">
             <td colspan="4" class="second-row-td-one" id="home">
-
-                <h1>My Name Is Shruti Gayki</h1>
-                <h2><i>I am a full stack developer</i></h2>
+                <div class="profile-pic">
+                    <img style="margin-left: 40%;" class="profile-image" src="./assets/images/profile_pic.jpeg" height="250px" width="250px">
+                    <h1 style="text-align: center;">My Name Is Shruti Gayki</h1>
+                    <h2 style="text-align: center;"><i>I am a full stack developer</i></h2>
+                </div>
             </td>
-
         </tr>
-        <!--third row-->
+
+        <!-- third row -->
         <tr class="third-row">
-            <td colspan="4" class="third-row-td-one" id="about"></a>
+            <td colspan="4" class="third-row-td-one" id="about">
                 <h1>About</h1>
                 <br />
-                <h3>Hello there! I'm Shruti Gayki' a passionate full stack web developer with a keep interest in
-                    leveraging technology to create impactful solutions. With a solid foundation in both front-end and
-                    back-end development, I specialize in creating project from various language.</h3>
+                <h3>Hello there! I'm Shruti Gayki, a passionate full stack web developer with a keen interest in leveraging technology to create impactful solutions. With a solid foundation in both front-end and back-end development, I specialize in creating projects using various languages.</h3>
             </td>
-
         </tr>
-        <!--first table-->
 
-
-        <!--first row-->
-
-        <!--forth row-->
+        <!-- fourth row -->
         <tr class="fourth-row">
             <td colspan="4" class="fourth-row-td-one" id="project">
-                <!--second table-->
                 <table class="second-table-css">
-
                     <tr>
-                        <td>
-                            <a href="./top-influncers.html">
-                                <img src="https://klugklug.com/wp-content/uploads/2023/09/blog8.png"
-                                    alt="Top Influncers" width="50%">
-                                <h1> Top Influncers</h1>
-                            </a>
-                        </td>
-
-                        <td class="second-table-td">
-                            <a href="./resume.html">
-                                <img src="https://media.licdn.com/dms/image/v2/C5612AQGRvSutyJawjg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1600703223132?e=2147483647&v=beta&t=HDOHS4GToBMgn9SqGcX3QyL4diFLVUiqrHHozbzASzQ"
-                                    alt="Resume" width="60%">
-                                <h1>My Resume</h1>
-                            </a>
-                        </td>
-                        <td class="second-table-td">
-                            <a href="./form-tag-one.html">
-                                <img src="https://www.pdffiller.com/preview/40/604/40604168.png" alt="Regestration Form"
-                                    width="30%">
-                                <h1>Regestration Form</h1>
-                            </a>
-                        </td>
-                        <td class="second-table-td">
-                            <a href="./sign-up-regestration.html">
-                                <img src="https://assets.justinmind.com/wp-content/uploads/2024/07/signup-page-example-crm.png"
-                                    alt="Sign Up" width="50%">
-                                <h1>Sign Up </h1>
-                            </a>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td class="second-table-td">
-                            <a href="./cpu-components.html">
-                                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210605182444/CPUblock-660x495.jpg"
-                                    alt="CPU Componentes" width="40%">
-                                <h1>CPU Componentes </h1>
-                            </a>
-                        </td>
-                        <td class="second-table-td">
-                            <a href="./css-calculater.html">
-                                <img src="https://img.avery.com/f_auto,q_auto,c_scale,w_300/web/templates/line-art/11187"
-                                    alt="Table" width="50%">
-                                <h1>Table</h1>
-                            </a>
-                        </td>
-                        <td class="second-table-td">
-                            <a href="./youtubepage.html">
-                                <img src="https://cdn.mos.cms.futurecdn.net/jJneZLjUsUvFK5y3bJNUdD-1200-80.jpg"
-                                    alt="YouTube" width="60%">
-                                <h1>YouTube</h1>
-                            </a>
-                        </td>
-                        <td class="second-table-td">
-                            <a href="./css-calculater.html">
-                                <img src="https://help.apple.com/assets/678AF3BDAED93ED9D1042F84/678AF3C89EC3C835220A70FE/en_US/f2879765ab153bf235cef67ccb65ba92.png"
-                                    alt="Calculater" width="20%">
-                                <h1>Calculator</h1>
-                            </a>
-                        </td>
+                        <td><a href="./top-influncers.html"><img src="https://klugklug.com/wp-content/uploads/2023/09/blog8.png" alt="Top Influencers" width="50%"><h1>Top Influencers</h1></a></td>
+                        <td class="second-table-td"><a href="./resume.html"><img src="https://media.licdn.com/dms/image/v2/C5612AQGRvSutyJawjg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1600703223132?e=2147483647&v=beta&t=HDOHS4GToBMgn9SqGcX3QyL4diFLVUiqrHHozbzASzQ" alt="Resume" width="60%"><h1>My Resume</h1></a></td>
+                        <td class="second-table-td"><a href="./form-tag-one.html"><img src="https://www.pdffiller.com/preview/40/604/40604168.png" alt="Registration Form" width="30%"><h1>Registration Form</h1></a></td>
+                        <td class="second-table-td"><a href="./sign-up-registration.html"><img src="https://assets.justinmind.com/wp-content/uploads/2024/07/signup-page-example-crm.png" alt="Sign Up" width="50%"><h1>Sign Up</h1></a></td>
                     </tr>
                     <tr>
-                        <td class="second-table-td">
-                            <a href="./tbl-tags-html/tbl-index-s.html">
-                                <img src="https://www.investopedia.com/thmb/dHMkQeFRObPzOc3S1RaVPlFErBg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Term-Definitions_Index-665572b2712d4a6ca49b3f49179e3733.jpg"
-                                    alt="Index S" width="50%">
-                                <h1>Index S</h1>
-                            </a>
-                        </td>
-                        <td class="second-table-td">
-                            <a href="./tbl-tags-html/tbl-index-two.html">
-                                <img src="https://png.pngtree.com/png-clipart/20200226/original/pngtree-index-infographic-design-png-image_5322601.jpg"
-                                    alt="Index Two" width="50%">
-                                <h1>Index Two</h1>
-                            </a>
-                        </td>
-                        <td class="second-table-td">
-                            <a href="./tbl-tags-html/tdl-student-data.html">
-                                <img src="https://blogimages.softwaresuggest.com/blog/wp-content/uploads/2020/04/31185614/12-Benefits-of-Student-Database-Management-System.jpg"
-                                    alt="Student Data" width="60%">
-                                <h1>Student Data</h1>
-                            </a>
-                        </td>
+                        <td class="second-table-td"><a href="./cpu-components.html"><img src="https://media.geeksforgeeks.org/wp-content/uploads/20210605182444/CPUblock-660x495.jpg" alt="CPU Components" width="40%"><h1>CPU Components</h1></a></td>
+                        <td class="second-table-td"><a href="./css-calculator.html"><img src="https://img.avery.com/f_auto,q_auto,c_scale,w_300/web/templates/line-art/11187" alt="Table" width="50%"><h1>Table</h1></a></td>
+                        <td class="second-table-td"><a href="./youtubepage.html"><img src="https://cdn.mos.cms.futurecdn.net/jJneZLjUsUvFK5y3bJNUdD-1200-80.jpg" alt="YouTube" width="60%"><h1>YouTube</h1></a></td>
+                        <td class="second-table-td"><a href="./css-calculator.html"><img src="https://help.apple.com/assets/678AF3BDAED93ED9D1042F84/678AF3C89EC3C835220A70FE/en_US/f2879765ab153bf235cef67ccb65ba92.png" alt="Calculator" width="20%"><h1>Calculator</h1></a></td>
+                    </tr>
+                    <tr>
+                        <td class="second-table-td"><a href="./tbl-tags-html/tbl-index-s.html"><img src="https://www.investopedia.com/thmb/dHMkQeFRObPzOc3S1RaVPlFErBg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Term-Definitions_Index-665572b2712d4a6ca49b3f49179e3733.jpg" alt="Index S" width="50%"><h1>Index S</h1></a></td>
+                        <td class="second-table-td"><a href="./tbl-tags-html/tbl-index-two.html"><img src="https://png.pngtree.com/png-clipart/20200226/original/pngtree-index-infographic-design-png-image_5322601.jpg" alt="Index Two" width="50%"><h1>Index Two</h1></a></td>
+                        <td class="second-table-td"><a href="./tbl-tags-html/tdl-student-data.html"><img src="https://blogimages.softwaresuggest.com/blog/wp-content/uploads/2020/04/31185614/12-Benefits-of-Student-Database-Management-System.jpg" alt="Student Data" width="60%"><h1>Student Data</h1></a></td>
+                        <td class="second-table-td"><a href="./profile-card.html"><img src="https://media1.thehungryjpeg.com/thumbs2/ori_3747691_6w7r8e7quzto2xqvizmkilm3xbpxfjdvre5tczpp_identification-badge-vector-id-card-blank-name-template-profile-holder-person-isolated-illustration.jpg" alt="Student Profile-Card" width="50%"><h1>Profile Card</h1></a></td>
+                    </tr>
                 </table>
             </td>
-
         </tr>
 
-        <!--fifth row-->
+        <!-- fifth row -->
         <tr class="fifth-row">
             <td colspan="4" class="fifth-row-td-one" id="contact">
                 <h1>Contact</h1>
-
-                <h3>Email :<a href="mailto:shrutigayki97@gmail.com">shrutigayki97@gmail.com</a> </h3>
-
-                <h3>location :<a href="mailto:warud">Warud</a></h3>
-
-                <h3>git hub profile :<a href="github">github</a></h3>
+                <h3>Email: <a href="mailto:shrutigayki97@gmail.com">shrutigayki97@gmail.com</a></h3>
+                <h3>Location: Warud</h3>
+                <h3>GitHub Profile: <a href="https://github.com" target="_blank">GitHub</a></h3>
             </td>
-
         </tr>
     </table>
 </body>
