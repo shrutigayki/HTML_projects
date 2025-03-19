@@ -22,7 +22,10 @@
         }
 
         /* first row th css */
-        .first-row-th-one, .first-row-th-two, .first-row-th-three, .first-row-th-four {
+        .first-row-th-one,
+        .first-row-th-two,
+        .first-row-th-three,
+        .first-row-th-four {
             border-style: solid;
             border-color: black;
             border-width: 3px;
@@ -120,10 +123,12 @@
         .sixth-row {
             height: 500px;
         }
-        h1{
+
+        h1 {
             color: black;
         }
-        h3{
+
+        h3 {
             color: black;
         }
     </style>
@@ -133,17 +138,26 @@
     <table class="table">
         <!-- first row -->
         <tr class="first-row">
-            <th class="first-row-th-one"><a href="#home"><h1>Home</h1></a></th>
-            <th class="first-row-th-two"><a href="#about"><h1>About</h1></a></th>
-            <th class="first-row-th-three"><a href="#project"><h1>Project</h1></a></th>
-            <th class="first-row-th-four"><a href="#contact"><h1>Contact</h1></a></th>
+            <th class="first-row-th-one"><a href="#home">
+                    <h1>Home</h1>
+                </a></th>
+            <th class="first-row-th-two"><a href="#about">
+                    <h1>About</h1>
+                </a></th>
+            <th class="first-row-th-three"><a href="#project">
+                    <h1>Project</h1>
+                </a></th>
+            <th class="first-row-th-four"><a href="#contact">
+                    <h1>Contact</h1>
+                </a></th>
         </tr>
 
         <!-- second row -->
         <tr class="second-row">
             <td colspan="4" class="second-row-td-one" id="home">
                 <div class="profile-pic">
-                    <img style="margin-left: 40%;" class="profile-image" src="./assets/images/profile_pic.jpeg" height="250px" width="250px">
+                    <img style="margin-left: 40%;" class="profile-image" src="./assets/images/profile_pic.jpeg"
+                        height="250px" width="250px">
                     <h1 style="text-align: center;">My Name Is Shruti Gayki</h1>
                     <h2 style="text-align: center;"><i>I am a full stack developer</i></h2>
                 </div>
@@ -155,7 +169,9 @@
             <td colspan="4" class="third-row-td-one" id="about">
                 <h1>About</h1>
                 <br />
-                <h3>Hello there! I'm Shruti Gayki, a passionate full stack web developer with a keen interest in leveraging technology to create impactful solutions. With a solid foundation in both front-end and back-end development, I specialize in creating projects using various languages.</h3>
+                <h3>Hello there! I'm Shruti Gayki, a passionate full stack web developer with a keen interest in
+                    leveraging technology to create impactful solutions. With a solid foundation in both front-end and
+                    back-end development, I specialize in creating projects using various languages.</h3>
             </td>
         </tr>
 
@@ -164,22 +180,79 @@
             <td colspan="4" class="fourth-row-td-one" id="project">
                 <table class="second-table-css">
                     <tr>
-                        <td><a href="./top-influncers.html"><img src="https://klugklug.com/wp-content/uploads/2023/09/blog8.png" alt="Top Influencers" width="50%"><h1>Top Influencers</h1></a></td>
-                        <td class="second-table-td"><a href="./resume.html"><img src="https://media.licdn.com/dms/image/v2/C5612AQGRvSutyJawjg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1600703223132?e=2147483647&v=beta&t=HDOHS4GToBMgn9SqGcX3QyL4diFLVUiqrHHozbzASzQ" alt="Resume" width="60%"><h1>My Resume</h1></a></td>
-                        <td class="second-table-td"><a href="./form-tag-one.html"><img src="https://www.pdffiller.com/preview/40/604/40604168.png" alt="Registration Form" width="30%"><h1>Registration Form</h1></a></td>
-                        <td class="second-table-td"><a href="./sign-up-registration.html"><img src="https://assets.justinmind.com/wp-content/uploads/2024/07/signup-page-example-crm.png" alt="Sign Up" width="50%"><h1>Sign Up</h1></a></td>
+                        <td><a href="./top-influncers.html"><img
+                                    src="https://klugklug.com/wp-content/uploads/2023/09/blog8.png"
+                                    alt="Top Influencers" width="50%">
+                                <h1>Top Influencers</h1>
+                            </a></td>
+                        <td class="second-table-td"><a href="./resume.html"><img
+                                    src="https://media.licdn.com/dms/image/v2/C5612AQGRvSutyJawjg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1600703223132?e=2147483647&v=beta&t=HDOHS4GToBMgn9SqGcX3QyL4diFLVUiqrHHozbzASzQ"
+                                    alt="Resume" width="60%">
+                                <h1>My Resume</h1>
+                            </a></td>
+                        <td class="second-table-td"><a href="./form-tag-one.html"><img
+                                    src="https://www.pdffiller.com/preview/40/604/40604168.png" alt="Registration Form"
+                                    width="30%">
+                                <h1>Registration Form</h1>
+                            </a></td>
+                        <td class="second-table-td"><a href="./sign-up-registration.html"><img
+                                    src="https://assets.justinmind.com/wp-content/uploads/2024/07/signup-page-example-crm.png"
+                                    alt="Sign Up" width="50%">
+                                <h1>Sign Up</h1>
+                            </a></td>
                     </tr>
                     <tr>
-                        <td class="second-table-td"><a href="./cpu-components.html"><img src="https://media.geeksforgeeks.org/wp-content/uploads/20210605182444/CPUblock-660x495.jpg" alt="CPU Components" width="40%"><h1>CPU Components</h1></a></td>
-                        <td class="second-table-td"><a href="./css-calculator.html"><img src="https://img.avery.com/f_auto,q_auto,c_scale,w_300/web/templates/line-art/11187" alt="Table" width="50%"><h1>Table</h1></a></td>
-                        <td class="second-table-td"><a href="./youtubepage.html"><img src="https://cdn.mos.cms.futurecdn.net/jJneZLjUsUvFK5y3bJNUdD-1200-80.jpg" alt="YouTube" width="60%"><h1>YouTube</h1></a></td>
-                        <td class="second-table-td"><a href="./css-calculator.html"><img src="https://help.apple.com/assets/678AF3BDAED93ED9D1042F84/678AF3C89EC3C835220A70FE/en_US/f2879765ab153bf235cef67ccb65ba92.png" alt="Calculator" width="20%"><h1>Calculator</h1></a></td>
+                        <td class="second-table-td"><a href="./cpu-components.html"><img
+                                    src="https://media.geeksforgeeks.org/wp-content/uploads/20210605182444/CPUblock-660x495.jpg"
+                                    alt="CPU Components" width="40%">
+                                <h1>CPU Components</h1>
+                            </a></td>
+                        <td class="second-table-td"><a href="./css-calculator.html"><img
+                                    src="https://img.avery.com/f_auto,q_auto,c_scale,w_300/web/templates/line-art/11187"
+                                    alt="Table" width="50%">
+                                <h1>Table</h1>
+                            </a></td>
+                        <td class="second-table-td"><a href="./youtubepage.html"><img
+                                    src="https://cdn.mos.cms.futurecdn.net/jJneZLjUsUvFK5y3bJNUdD-1200-80.jpg"
+                                    alt="YouTube" width="60%">
+                                <h1>YouTube</h1>
+                            </a></td>
+                        <td class="second-table-td"><a href="./css-calculator.html"><img
+                                    src="https://help.apple.com/assets/678AF3BDAED93ED9D1042F84/678AF3C89EC3C835220A70FE/en_US/f2879765ab153bf235cef67ccb65ba92.png"
+                                    alt="Calculator" width="20%">
+                                <h1>Calculator</h1>
+                            </a></td>
                     </tr>
                     <tr>
-                        <td class="second-table-td"><a href="./tbl-tags-html/tbl-index-s.html"><img src="https://www.investopedia.com/thmb/dHMkQeFRObPzOc3S1RaVPlFErBg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Term-Definitions_Index-665572b2712d4a6ca49b3f49179e3733.jpg" alt="Index S" width="50%"><h1>Index S</h1></a></td>
-                        <td class="second-table-td"><a href="./tbl-tags-html/tbl-index-two.html"><img src="https://png.pngtree.com/png-clipart/20200226/original/pngtree-index-infographic-design-png-image_5322601.jpg" alt="Index Two" width="50%"><h1>Index Two</h1></a></td>
-                        <td class="second-table-td"><a href="./tbl-tags-html/tdl-student-data.html"><img src="https://blogimages.softwaresuggest.com/blog/wp-content/uploads/2020/04/31185614/12-Benefits-of-Student-Database-Management-System.jpg" alt="Student Data" width="60%"><h1>Student Data</h1></a></td>
-                        <td class="second-table-td"><a href="./profile-card.html"><img src="https://media1.thehungryjpeg.com/thumbs2/ori_3747691_6w7r8e7quzto2xqvizmkilm3xbpxfjdvre5tczpp_identification-badge-vector-id-card-blank-name-template-profile-holder-person-isolated-illustration.jpg" alt="Student Profile-Card" width="50%"><h1>Profile Card</h1></a></td>
+                        <td class="second-table-td"><a href="./tbl-tags-html/tbl-index-s.html"><img
+                                    src="https://www.investopedia.com/thmb/dHMkQeFRObPzOc3S1RaVPlFErBg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Term-Definitions_Index-665572b2712d4a6ca49b3f49179e3733.jpg"
+                                    alt="Index S" width="50%">
+                                <h1>Index S</h1>
+                            </a></td>
+                        <td class="second-table-td"><a href="./tbl-tags-html/tbl-index-two.html"><img
+                                    src="https://png.pngtree.com/png-clipart/20200226/original/pngtree-index-infographic-design-png-image_5322601.jpg"
+                                    alt="Index Two" width="50%">
+                                <h1>Index Two</h1>
+                            </a></td>
+                        <td class="second-table-td"><a href="./tbl-tags-html/tdl-student-data.html"><img
+                                    src="https://blogimages.softwaresuggest.com/blog/wp-content/uploads/2020/04/31185614/12-Benefits-of-Student-Database-Management-System.jpg"
+                                    alt="Student Data" width="60%">
+                                <h1>Student Data</h1>
+                            </a></td>
+                        <td class="second-table-td"><a href="./profile-card.html"><img
+                                    src="https://media1.thehungryjpeg.com/thumbs2/ori_3747691_6w7r8e7quzto2xqvizmkilm3xbpxfjdvre5tczpp_identification-badge-vector-id-card-blank-name-template-profile-holder-person-isolated-illustration.jpg"
+                                    alt="Student Profile-Card" width="50%">
+                                <h1>Profile Card</h1>
+                            </a></td>
+
+                    </tr>
+                    <tr>
+                        <td class="second-table-td"><a href="./id.html"><img
+                                    src="https://png.pngtree.com/template/20240419/ourmid/pngtree-social-profile-card-template-design-image_2015944.jpg"
+                                    alt="Student Profile-Card" width="50%">
+                                <h1>Profile Card</h1>
+                            </a></td>
+                            
                     </tr>
                 </table>
             </td>
