@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>News Artical Layout</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .main-container {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+            grid-template-columns: repeat(5, 1fr);
+            row-gap: 10px;
+            column-gap: 20px;
+            background-color: rgb(210, 214, 218);
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .header {
+            width: 100%;
+            height: 100px;
+            background-color: darkgreen;
+            grid-column: 1/ span 5;
+            text-align: center;
+            font-size: 10px;
+            color: white;
+        }
+
+        .box-one {
+            width: 170%;
+            height: 100px;
+            background-color: rgb(24, 85, 13);
+            grid-column: 1/ span 3;
+            text-align: center;
+            padding-left: 20PX;
+            padding-right: 20PX;
+
+        }
+
+        .box-two {
+            width: 100%;
+            height: 500px;
+            background-color: rgb(244, 247, 246);
+            grid-column: 1/ span 3;
+            border-radius: 20px;
+
+        }
+
+        .box-three {
+            width: 90%;
+            height: 500px;
+            background-color: rgb(235, 235, 241);
+            grid-column: 4/ span 5;
+            border-radius: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .box-four {
+            width: 100%;
+            height: 60px;
+            background-color: rgb(51, 50, 49);
+            grid-column: 1/ span 5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <!--header-->
+        <div class="box-one">
+            <h1>News</h1>
+        </div>
+        <!---->
+        <div class="box-two">
+            <h2>Information Technology Industry </h2>
+            <h3>India’s IT services sector is undergoing leadership and structural changes due to
+            AI’s rising influence and a tough business environment. Several companies appointed new CEOs, revamped
+            roles, and restructured operations to enhance efficiency and remain competitive.
+            <br />
+            <br />
+            Rajesh Nambiar noted that the world is experiencing a global technological shift, which has created a rising
+            demand for a high-quality talent base to meet the challenges and opportunities of this new landscape.</h3>      </div>
+        <!---->
+        <div class="box-three">
+            <h2>Related News</h2>
+            <h3>
+                <ul>
+                <li>Event 1</li>
+                <li>Event 2</li>
+                <li>Event 3</li>
+              </ul>
+            </h3>
+        </div>
+        <!---->
+        <div class="box-four"></div>
+
+    </div>
+</body>
+
+</html>
