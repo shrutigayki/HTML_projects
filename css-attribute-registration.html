@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regestration Form Using Grid</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            background: linear-gradient(to right, #479980, #113648);
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            height: 680px;
+            width: 98%;
+            background-color: white;
+            border-radius: 20px;
+        }
+
+        .heading {
+            width: 98%;
+            height: 12%;
+        }
+
+        .heading-h1{
+            padding-top: 50px;
+            padding-left: 80%;
+            font-size: 37px;
+            text-decoration: underline rgb(62, 62, 92);
+        }
+
+        .main {
+            width: 100%;
+            height: 360px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin-top: 20px;
+        }
+
+        .main-one {
+            width: 100%;
+            height: 360px;
+        }
+
+        .main-two {
+            width: 100%;
+            height: 360px;
+        }
+
+        label {
+            font-size: 30px;
+            margin-left: 70px;
+            font-weight: 550;
+        }
+
+        input [type="text"],
+        [type="email"],
+        [type="password"],
+        [type="tel"],
+        [type="text"] {
+            height: 50px;
+            width: 600px;
+            font-size: 25px;
+            margin-top: 10px;
+            margin-left: 70px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-group {
+            height: 100px;
+            width: 100%;
+            margin-top: 10px;
+            display: grid;
+
+
+        }
+
+        .gender-options {
+            margin-left: 10px;
+            padding-top: 20px;
+        }
+
+        input[type="radio"] {
+            width: 25px;
+            height: 25px;
+            margin-left: 70px;
+        }
+
+        .gender-options-label {
+            margin-left: 10px;
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+        .button-one {
+            height: 50%;
+            width: 90%;
+            font-size: 25px;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(to right, #a36009, #692c10);
+            margin-top: 50px;
+            margin-left: 50px;
+            border-radius: 10px;
+            
+        }
+
+        .button-one:hover {
+            color: rgb(7, 7, 7);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1 class="heading">Registration</h1>
+        </div>
+        <div class="main">
+            <div class="main-one">
+                <label>Full Name</label>
+                <br />
+                <input type="text" placeholder="Enter your name">
+                <br />
+                <label>Email</label>
+                <br />
+                <input type="email" placeholder="Enter your email">
+                <br />
+                <label>Password</label>
+                <br />
+                <input type="password" placeholder="Enter your password">
+            </div>
+            <div class="main-two">
+                <label>Username</label>
+                <br />
+                <input type="text" placeholder="Enter your username">
+                <br />
+                <label>Phone Number</label>
+                <br>
+                <input type="tel" placeholder="Enter your number">
+                <br />
+                <label>Confirm password</label>
+                <br />
+                <input type="password" placeholder="Conform your password">
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Gender</label>
+            <div class="gender-options">
+
+                <input type="radio" name="gender" id="male">
+                <label class="gender-options-label" for="male">Male</label>
+
+                <input type="radio" name="gender" id="female">
+                <label class="gender-options-label" for="female">Female</label>
+
+                <input type="radio" name="gender" id="prefer-not">
+                <label class="gender-options-label" for="prefer-not">Prefer not to say</label>
+            </div>
+        </div>
+
+        <div class="button">
+            <input class="button-one" type="submit" value="Register">
+        </div>
+
+    </div>
+
+</body>
+
+</html>

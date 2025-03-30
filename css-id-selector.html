@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Selector</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+
+        }
+
+        .main-container {
+
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .header {
+            height: 100px;
+            width: 100%;
+            background-color: brown;
+            grid-column: 1/ 2 span;
+            grid-template-columns: 1fr 1fr;
+            display: grid;
+        }
+
+        .logo {
+            height: 100%;
+            width: 100%;
+            margin-top: auto;
+        }
+
+        .header-link {
+
+            width: 100%;
+            background-color: blue;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+        }
+
+        /*home section css*/
+        #home {
+            width: 100%;
+            height: 600px;
+            background-color: rgb(107, 97, 155);
+            display: grid;
+            grid-template-columns: repeat(2 1fr);
+        }
+
+        .home-left {
+            width: 100%;
+            height: 90%;
+            background-color: rgb(27, 54, 45);
+            display: grid;
+        }
+
+        .home-right {
+            width: 100%;
+            height: 90%;
+            background-color: rgb(36, 171, 126);
+        }
+
+        /*product section css*/
+        #product {
+            width: 100%;
+            height: 600px;
+            background-color: chocolate;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+
+        .producr-card {
+            width: 250px;
+            height: 300px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <!--header section start-->
+        <div class="container">
+            <div class="header">
+                <div class="amazon">
+                    <h1>amazon</h1>
+                </div>
+                <div class="header-link">
+                    <span>Home</span>
+                    <span>Product</span>
+                    <span>About shop</span>
+                    <span>Contact</span>
+                </div>
+            </div>
+            <!--header section end-->
+
+            <!--home section start-->
+            <div id="home">
+                <div class="home-left">
+                    <div class="home-left-one"></div>
+                </div>
+                <div class="home-right">
+
+                </div>
+            </div>
+            <!--home section end-->
+
+            <!--product section start-->
+            <div id="product">
+                <div class="producr-card"></div>
+                <div class="producr-card"></div>
+                <div class="producr-card"></div>
+                <div class="producr-card"></div>
+            </div>
+            <!--product section end-->
+
+</body>
+
+</html>

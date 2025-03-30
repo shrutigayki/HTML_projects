@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupping Selector</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main-container {
+            height: 100%;
+            width: 100%;
+        }
+
+        .header {
+            height: 10%;
+            width: 100%;
+            background-color: rgb(200, 93, 93);
+        }
+
+        .home {
+            height: 90%;
+            width: 100%;
+            background-color: rgb(3, 3, 41);
+            display: grid;
+        }
+
+        .footer {
+            height: 10%;
+            width: 100%;
+            background-color: rgb(14, 99, 39);
+            display: grid;
+           
+        }
+
+        /*groupping selector*/
+        h3,
+        a,
+        .header,
+        #heading {
+            text-align: center;
+            font-size: 30px;
+            color: rgb(247, 242, 242);
+        }
+
+        .home-info {
+            width: 70%;
+            height: 70%;
+            border-style: solid;
+            border-color: white;
+            border-width: 3px;
+            text-align: justify;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        p {
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container ">
+        <div class="header">
+            <span><a href="#"></a>Home</span>
+            <span><a href="#"></a>Contact</span>
+        </div>
+
+        <div class="home">
+            <h1 id="heading">welcome to my website </h1>
+            <div class="home-info">
+                <p>Space is a vast, mostly empty region where our solar system, including the Sun, planets, and other
+                    celestial bodies, resides within the Milky Way galaxy. It's characterized by a near vacuum, low
+                    pressure, and the absence of sound transmission due to the lack of molecules. </p>
+            </div>
+        </div>
+        <div class="footer">
+            <h3>@copyright 2025,by Enjoy Programming</h3>
+        </div>
+    </div>
+</body>
+
+</html>
