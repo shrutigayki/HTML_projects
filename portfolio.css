@@ -1,0 +1,93 @@
+body {
+    width: 100vw;
+
+}
+
+.main-container {
+    width: 100%;
+
+}
+
+/*header section css*/
+.nav-header{
+    width: 100%;
+    height: 80px;
+    background-color: #040404;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+}
+
+.logo {
+    margin-left: 70px;
+}
+
+.header-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/*home section css*/
+.home {
+    width: 100%;
+    height: 500px;
+    background-color: #D29F80;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+}
+
+.home-left {
+    width: 100%;
+    height: 100%;
+    background-color: #434241;
+    color: white;
+}
+
+.home-text {
+    width: 100%;
+}
+
+.home-right {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(46, 44, 44);
+}
+
+.home-image {
+    width: 50%;
+    height: 50%;
+    margin-left: 180px;
+    margin-top: 150px;
+}
+
+.about {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(57, 59, 59)
+}
+
+/*project section css*/
+.project{
+    width:100% ;
+    height:auto;
+    background-color: #22665f;
+}
+.about-title {
+    font-size: 50px;
+    color: white;
+    margin-left: 100px;
+}
+.cards{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 97%;
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(auto-fit, minmix(250px, 1fr));
+    gap: 15px;
+}
+.project-card{
+    width: 50%;
+    height: 200px;
+    background-color: rgb(244, 241, 240); 
+}

@@ -1,32 +1,142 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Cascading</title>
-        <style>
-        .box-one{
-            style="background-color:blueviolet;border-style: solid;border-width: 3px;border-color: blueviolet;"> 
-        <h1>BOX 1</h1>
-     }
-     .box-two{
-        style="background-colour:blueviolet;border-style: solid;border-width: 3px;border-color: blueviolet;"> 
-                <h1>BOX 1</h1>
-     }
-.box-three{
-    style="background-color:blue;border-style: solid;border-width: 3px;border-color:blue;"> 
-    <H1>BOX 3</H1>
-}
-        </style>
-    </head>
-        <body>
-            
-           </div>
-           <div class="box-one">
-             <H1>BOX 1</H1>
-            </div>
-           <div class="box-two">
-       </div>
-        <div class="box-therr">
-     </div>
 
-        </body>
+<head>
+    <title>CSS Class One</title>
+    <style>
+        /*header css*/
+        .header {
+            background-color: rgb(113, 154, 154);
+            width: 100%;
+            height: 100px;
+        }
+
+        /*main css*/
+        .main {
+            background-color: rgb(160, 131, 160);
+            width: 100%;
+            height: 500px;
+        }
+
+        /*box one css*/
+        .box-one {
+            background-color: rgb(101, 183, 101);
+            width: 25%;
+            height: 100px;
+        }
+
+        /*box two css*/
+        .box-two {
+            background-color: rgb(118, 162, 29);
+            width: 25%;
+            height: 100px;
+        }
+
+        /*box three css*/
+        .box-three {
+            background-color: rgb(135, 189, 196);
+            width: 25%;
+            height: 100px;
+        }
+
+        /*box four css*/
+        .box-four {
+            background-color: rgb(195, 235, 137);
+            width: 25%;
+            height: 100px;
+        }
+
+        /*section one css*/
+        .section {
+            background-color: burlywood;
+            width: 50%;
+            height: 100px;
+        }
+
+        /*section two css*/
+        .section-two {
+            background-color: darkslategray;
+            width: 50%;
+            height: 100px;
+            color: white;
+            /*background-colour:red blue*/
+            background: linear-gradient(red, blue);
+        }
+
+        /*section three css*/
+        .section-three {
+            background-color: darkslategray;
+            width: 50%;
+            height: 100px;
+            background: linear-gradient(blue,red,green,yellow);
+        }
+
+        /*footer four css*/
+        .footer-four {
+            background-color: rgb(243, 149, 149);
+            width: 100%;
+            height: 100px;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1></h1>
+    <!--heeader tag-->
+    <header class="header">
+        <!--header div one-->
+        <div class="box-one">
+
+        </div>
+        <!--header div two-->
+        <div class="box-two">
+
+        </div>
+        <!--header div three-->
+        <div class="box-three">
+
+        </div>
+        <!--header div four-->
+        <div class="box-four">
+
+        </div>
+    </header>
+    <main class="main">
+        <!--Section one-->
+        <Section class="section-one">
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </Section>
+        <!--section two-->
+        <section class="section-two">
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged.
+            </p>
+            <hr>
+        </section>
+        <!--section three-->
+        <section class="section-three">
+
+        </section>
+         <!--section four-->
+         <section class="section-four">
+
+         </section>
+    </main>
+    <!--footer tag-->
+    <footer class="footer">
+
+    </footer>
+</body>
+
 </html>
